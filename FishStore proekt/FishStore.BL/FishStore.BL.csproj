@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    
+    <ProjectReference Include="..\FishStore.DL\FishStore.DL.csproj" />
+    <ProjectReference Include="..\FishStore.Models\FishStore.Models.csproj" />
+    <PackageReference Include="Confluent.Kafka" Version="1.9.2" />
+    
+  </ItemGroup>
+</Project>
